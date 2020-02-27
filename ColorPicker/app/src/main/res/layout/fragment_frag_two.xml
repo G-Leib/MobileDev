@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".FragOne">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/textView"
+                android:layout_width="472dp"
+                android:layout_height="123dp"
+                android:text="Color 1" />
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/FragOneRed"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="Red"
+                    android:gravity="center"/>
+            <SeekBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sb_red_one"
+                    android:layout_weight="8"
+                    android:min="0" android:max="255"/>
+            <TextView
+                    android:id="@+id/FragOneRedVal"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="0"
+                    android:gravity="center"/>
+
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                    android:text="Green"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/FragOneGreen"
+                    android:layout_weight="1"
+                    android:gravity="center"/>
+            <SeekBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/sb_green_one" android:layout_weight="8"
+                    android:min="0" android:max="255"/>
+            <TextView
+                    android:id="@+id/FragOneGreenVal"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="0"
+                    android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <TextView
+                    android:id="@+id/FragOneBlue"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Blue" />
+
+            <SeekBar
+                    android:id="@+id/sb_blue_one"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="8"
+                    android:max="255"
+                    android:min="0" />
+
+            <TextView
+                    android:id="@+id/FragOneBlueVal"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
