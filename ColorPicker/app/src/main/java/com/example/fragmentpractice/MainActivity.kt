@@ -104,7 +104,7 @@ class MainActivity : AppCompatActivity() {
         sb_red_one!!.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar, progress: Int, fromUser: Boolean) {
                 // Write code to perform some action when progress is changed.
-                fragment1?.view?.setBackgroundColor(Color.rgb(sb_red_one.progress, sb_green_one.progress, sb_blue_one.progress))
+                fragment1?.colorOneView?.setBackgroundColor(Color.rgb(sb_red_one.progress, sb_green_one.progress, sb_blue_one.progress))
                 FragOneRedVal.text = progress.toString()
                 setFragThree()
 
@@ -122,7 +122,7 @@ class MainActivity : AppCompatActivity() {
         sb_red_two!!.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar, progress: Int, fromUser: Boolean) {
                 // Write code to perform some action when progress is changed.
-                fragment2?.view?.setBackgroundColor(Color.rgb(sb_red_two.progress, sb_green_two.progress, sb_blue_two.progress))
+                fragment2?.colorTwoView?.setBackgroundColor(Color.rgb(sb_red_two.progress, sb_green_two.progress, sb_blue_two.progress))
                 FragTwoRedVal.text = progress.toString()
                 setFragThree()
 
@@ -141,7 +141,7 @@ class MainActivity : AppCompatActivity() {
         sb_green_one!!.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar, progress: Int, fromUser: Boolean) {
                 // Write code to perform some action when progress is changed.
-                fragment1?.view?.setBackgroundColor(Color.rgb(sb_red_one.progress, sb_green_one.progress, sb_blue_one.progress))
+                fragment1?.colorOneView?.setBackgroundColor(Color.rgb(sb_red_one.progress, sb_green_one.progress, sb_blue_one.progress))
                 FragOneGreenVal.text = progress.toString()
                 setFragThree()
 
@@ -159,7 +159,7 @@ class MainActivity : AppCompatActivity() {
         sb_green_two!!.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar, progress: Int, fromUser: Boolean) {
                 // Write code to perform some action when progress is changed.
-                fragment2?.view?.setBackgroundColor(Color.rgb(sb_red_two.progress, sb_green_two.progress, sb_blue_two.progress))
+                fragment2?.colorTwoView?.setBackgroundColor(Color.rgb(sb_red_two.progress, sb_green_two.progress, sb_blue_two.progress))
                 FragTwoGreenVal.text = progress.toString()
                 setFragThree()
 
@@ -178,7 +178,7 @@ class MainActivity : AppCompatActivity() {
         sb_blue_one!!.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar, progress: Int, fromUser: Boolean) {
                 // Write code to perform some action when progress is changed.
-                fragment1?.view?.setBackgroundColor(Color.rgb(sb_red_one.progress, sb_green_one.progress, sb_blue_one.progress))
+                fragment1?.colorOneView?.setBackgroundColor(Color.rgb(sb_red_one.progress, sb_green_one.progress, sb_blue_one.progress))
                 FragOneBlueVal.text = progress.toString()
                 setFragThree()
 
@@ -196,7 +196,7 @@ class MainActivity : AppCompatActivity() {
         sb_blue_two!!.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar, progress: Int, fromUser: Boolean) {
                 // Write code to perform some action when progress is changed.
-                fragment2?.view?.setBackgroundColor(Color.rgb(sb_red_two.progress, sb_green_two.progress, sb_blue_two.progress))
+                fragment2?.colorTwoView?.setBackgroundColor(Color.rgb(sb_red_two.progress, sb_green_two.progress, sb_blue_two.progress))
                 FragTwoBlueVal.text = progress.toString()
                 setFragThree()
 

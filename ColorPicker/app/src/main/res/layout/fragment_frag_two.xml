@@ -13,9 +13,15 @@
 
         <TextView
                 android:id="@+id/textView"
-                android:layout_width="472dp"
-                android:layout_height="123dp"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
                 android:text="Color 1" />
+
+        <TextView
+                android:layout_width="300dp"
+                android:layout_height="100dp"
+                android:id="@+id/colorOneView"/>
+
         <LinearLayout
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
