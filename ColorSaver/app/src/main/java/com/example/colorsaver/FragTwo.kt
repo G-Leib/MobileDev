@@ -1,4 +1,4 @@
-package com.example.fragmentpractice
+package com.example.colorsaver
 
 import android.content.Context
 import android.net.Uri
@@ -9,15 +9,14 @@ import android.view.View
 import android.view.ViewGroup
 
 
-class FragOne : Fragment() {
+class FragTwo : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_frag_one, container, false)
+        return inflater.inflate(R.layout.fragment_frag_two, container, false)
     }
-
 
 }

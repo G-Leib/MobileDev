@@ -1,9 +1,8 @@
-package com.example.fragmentpractice
+package com.example.colorsaver
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.SeekBar
-import androidx.fragment.app.Fragment
 import android.graphics.Color
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.fragment_frag_one.*
