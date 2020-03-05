@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FragmentPractice</string>
+    <string name="app_name">ColorPicker</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_frag_one">Hello fragment one</string>

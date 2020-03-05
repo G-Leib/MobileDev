@@ -1,4 +1,4 @@
-package com.example.fragmentpractice
+package com.example.colorpicker
 
 import android.content.Context
 import android.net.Uri

@@ -1,4 +1,4 @@
-package com.example.fragmentpractice
+package com.example.colorpicker
 
 import org.junit.Test
 
